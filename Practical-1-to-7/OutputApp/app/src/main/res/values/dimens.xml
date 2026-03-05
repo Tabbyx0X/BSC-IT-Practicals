@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen padding used in all activity layouts -->
+    <dimen name="screen_padding">16dp</dimen>
+
+    <!-- Practical 1 – dimension resource demo (applied as padding) -->
+    <dimen name="p1_padding">24dp</dimen>
+</resources>

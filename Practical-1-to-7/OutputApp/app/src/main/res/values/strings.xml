@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Practicals 1–7</string>
+
+    <!-- Home screen -->
+    <string name="home_title">Android Programming Practicals</string>
+    <string name="home_subtitle">Select a practical to view its output</string>
+
+    <!-- Home screen buttons -->
+    <string name="btn_practical1">Practical 1 – Resources</string>
+    <string name="btn_practical2">Practical 2 – Activities &amp; Fragments</string>
+    <string name="btn_practical3">Practical 3 – Layouts</string>
+    <string name="btn_practical4">Practical 4 – UI Elements</string>
+    <string name="btn_practical5">Practical 5 – Menus &amp; Dialogs</string>
+    <string name="btn_practical6">Practical 6 – Intents &amp; Adapters</string>
+    <string name="btn_practical7">Practical 7 – Services &amp; Notifications</string>
+
+    <!-- Practical 1 -->
+    <string name="p1_greeting">Hello from a String Resource! 👋</string>
+    <string name="p1_image_desc">Sample drawable image</string>
+    <string name="p1_dimension_demo">This TextView has padding applied via a dimension resource (@dimen/p1_padding = 24dp).</string>
+
+    <!-- Menu items (Practical 5) -->
+    <string name="menu_info">Info</string>
+</resources>
