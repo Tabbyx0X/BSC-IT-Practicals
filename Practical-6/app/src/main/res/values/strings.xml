@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intent Demo</string>
+    <string name="main_instructions">Enter a name and message, then tap Send to pass the data to the next screen using an explicit Intent.</string>
+    <string name="label_name">Name</string>
+    <string name="hint_name">e.g. Alice</string>
+    <string name="label_message">Message</string>
+    <string name="hint_message">e.g. Hello from MainActivity!</string>
+    <string name="btn_send">Send</string>
+    <string name="error_name_empty">Name cannot be empty</string>
+    <string name="error_message_empty">Message cannot be empty</string>
+    <string name="second_title">Received Data</string>
+    <string name="label_received_name">Name:</string>
+    <string name="label_received_message">Message:</string>
+    <string name="btn_back">Go Back</string>
+</resources>
