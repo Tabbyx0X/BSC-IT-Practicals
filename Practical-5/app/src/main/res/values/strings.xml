@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Lifecycle Demo</string>
+    <string name="waiting">Waiting for lifecycle events…</string>
+    <string name="open_second_activity">Open Second Activity</string>
+    <string name="go_back">Go Back (finish)</string>
+    <string name="second_activity_title">Second Activity</string>
+    <string name="second_activity_desc">Opening this screen triggered onPause + onStop on the main activity.\nPress Go Back to see onRestart + onStart + onResume.</string>
+    <string name="type_something_hint">Type something — then rotate to test state saving</string>
+    <string name="instructions">Tips: Press Home → observe onPause+onStop. Re-open → onRestart. Rotate → onDestroy then onCreate (text restored). Open Second Activity → onPause+onStop. Go Back → onRestart.</string>
+</resources>
