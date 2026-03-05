@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color -->
+    <color name="primary">#6200EE</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="accent">#03DAC5</color>
+    <color name="accent_light">#B2EBF2</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface_variant">#F3E5F5</color>
+    <color name="on_surface">#212121</color>
+
+    <!-- Fragment backgrounds (Practical 2) -->
+    <color name="fragment_a_bg">#6200EE</color>
+    <color name="fragment_b_bg">#018786</color>
+
+    <!-- Divider line -->
+    <color name="divider">#BDBDBD</color>
+</resources>

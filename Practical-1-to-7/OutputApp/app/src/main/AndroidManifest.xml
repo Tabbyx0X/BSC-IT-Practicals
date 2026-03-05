@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permission for sending notifications (required on Android 13 / API 33+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Permission to open URLs in browser (Practical 6) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PracticalsOutputApp">
+
+        <!-- Main launcher screen listing all practicals -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Practical 1: Resources demo -->
+        <activity
+            android:name=".Practical1Activity"
+            android:label="Practical 1 – Resources"
+            android:exported="false" />
+
+        <!-- Practical 2: Activities & Fragments demo -->
+        <activity
+            android:name=".Practical2Activity"
+            android:label="Practical 2 – Activities &amp; Fragments"
+            android:exported="false" />
+
+        <!-- Second Activity used inside Practical 2 -->
+        <activity
+            android:name=".Practical2SecondActivity"
+            android:label="Practical 2 – Second Activity"
+            android:exported="false" />
+
+        <!-- Practical 3: Layouts demo -->
+        <activity
+            android:name=".Practical3Activity"
+            android:label="Practical 3 – Layouts"
+            android:exported="false" />
+
+        <!-- Practical 4: UI Elements demo -->
+        <activity
+            android:name=".Practical4Activity"
+            android:label="Practical 4 – UI Elements"
+            android:exported="false" />
+
+        <!-- Practical 5: Menus, Dialogs, DialogFragment demo -->
+        <activity
+            android:name=".Practical5Activity"
+            android:label="Practical 5 – Menus &amp; Dialogs"
+            android:exported="false" />
+
+        <!-- Practical 6: Intents, Events, Adapters demo -->
+        <activity
+            android:name=".Practical6Activity"
+            android:label="Practical 6 – Intents &amp; Adapters"
+            android:exported="false" />
+
+        <!-- Practical 7: Services, Notifications, Broadcast Receivers demo -->
+        <activity
+            android:name=".Practical7Activity"
+            android:label="Practical 7 – Services &amp; Notifications"
+            android:exported="false" />
+
+        <!-- Background service for Practical 7 -->
+        <service
+            android:name=".service.MyService"
+            android:exported="false" />
+
+        <!-- Broadcast receiver for Practical 7 (registered dynamically in code) -->
+
+    </application>
+
+</manifest>

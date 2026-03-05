@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_practical5.xml – Practical 5: Menus, Dialogs & DialogFragment Demo
+    Toolbar contains the Options Menu (see menu/menu_practical5.xml).
+    Two buttons: one shows an AlertDialog, one shows a DialogFragment.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Toolbar (options menu appears here as overflow icon) -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/screen_padding">
+
+            <!-- Large title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practical 5 Output"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                android:gravity="center"
+                android:paddingBottom="16dp" />
+
+            <!-- Instruction -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tap the ⋮ overflow icon in the toolbar above to see the Options Menu.\n"
+                android:textAppearance="?attr/textAppearanceBody1"
+                android:paddingBottom="24dp" />
+
+            <!-- AlertDialog button -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AlertDialog"
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                android:textColor="@color/primary"
+                android:paddingBottom="4dp" />
+
+            <Button
+                android:id="@+id/btnShowAlertDialog"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show AlertDialog"
+                android:layout_marginBottom="24dp" />
+
+            <!-- DialogFragment button -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DialogFragment"
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                android:textColor="@color/primary"
+                android:paddingBottom="4dp" />
+
+            <Button
+                android:id="@+id/btnShowDialogFragment"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show DialogFragment" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
