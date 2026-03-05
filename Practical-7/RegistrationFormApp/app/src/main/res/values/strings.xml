@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Registration Form</string>
+    <string name="title_registration">Create Account</string>
+    <string name="subtitle_registration">Fill in the details to register</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_register">Register</string>
+    <string name="error_name_empty">Full name cannot be empty</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_confirm_password_empty">Please confirm your password</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="toast_registration_success">Registration successful</string>
+</resources>
