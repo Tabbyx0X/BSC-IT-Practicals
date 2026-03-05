@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Screen</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="error_username_empty">Username cannot be empty</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="toast_login_success">Login successful</string>
+</resources>
