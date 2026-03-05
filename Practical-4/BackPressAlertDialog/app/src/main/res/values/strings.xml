@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BackPressAlertDialog</string>
+    <string name="press_back_hint">Press the back button to see the exit dialog.</string>
+    <string name="dialog_title">Exit</string>
+    <string name="dialog_message">Do you want to exit?</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+</resources>
