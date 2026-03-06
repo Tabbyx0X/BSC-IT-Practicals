@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Airplane Mode Notifier</string>
+    <string name="title">Practical 8 – Airplane Mode Notifier</string>
+    <string name="instructions">This app detects Airplane Mode changes using a BroadcastReceiver.\n\nTo test:\n1. Open the Quick Settings panel (swipe down from the top).\n2. Tap the Airplane Mode tile to toggle it ON or OFF.\n3. A notification and a Toast will appear showing the new state.\n4. The status below will update automatically.</string>
+    <string name="current_status_label">Current Airplane Mode State:</string>
+    <string name="status_on">✈ Airplane Mode: ON</string>
+    <string name="status_off">📶 Airplane Mode: OFF</string>
+</resources>
