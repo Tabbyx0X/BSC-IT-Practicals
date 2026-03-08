@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_toggle_sign">+/−</string>
+    <string name="btn_backspace">⌫</string>
+    <string name="btn_div">÷</string>
+    <string name="btn_mul">×</string>
+    <string name="btn_sub">−</string>
+    <string name="btn_add">+</string>
+    <string name="btn_dot">.</string>
+    <string name="btn_equals">=</string>
+    <string name="error_divide_by_zero">Error: ÷0</string>
+</resources>
